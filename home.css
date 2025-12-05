@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #eddbcc;
+}
+header{
+    background: #5c2e01;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "cash";
+}
+p{
+    text-align: justify;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    display: flex;
+    background: #896443;
+    padding: 0;
+}
+nav a{
+    padding: 16px 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    font-family: "aksara";
+}
+nav a:hover{
+    background: #5c2e01;
+}
+
+/* Dropdown */
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #6d4013;;
+    min-width: 240px;
+    z-index: 1;
+}
+.dropdown-content a{
+    padding: 14px 20px;
+    display: block;
+    color: white;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.section{
+    padding: 40px 80px;
+    margin: 25px auto;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    color: #440000;
+    border-radius: 12px;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(2, 0, 0, 0.1);
+    font-size: 18px;
+    line-height: 1.6;
+}
+.section:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(52, 29, 2, 0.3);
+}
+
+footer{
+    background: #440000;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin-top: 40px;
+    font-family: "cash";
+}
+
+/* Font */
+@font-face {
+    font-family: "aksara";
+    src: url(AksaraKomik-Regular.otf);
+}
+@font-face {
+    font-family: "cash";
+    src: url(Cash\ Paper.otf);
+}
